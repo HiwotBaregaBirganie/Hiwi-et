@@ -1,1 +1,36 @@
+ 21/05/2024
 git init -> crea una repository locale
+git status -> verificare lo stato della repository locale
+git add.commit nomefile -> traccia il file
+git commit -m 'messaggio' ->per salvare tutti file nella repository locale
+
+#fase iniziale
+git config --global user.email "your-email@example" ->per settare la mail dell'utente
+git config --global user.name "Your-name dell utente git
+git config --global --list ->stampa una lista di variabili globali di git
+
+#check status repository
+git status ->verifica lo stato delle repository locale
+
+#init repository locale
+git status -> crea una repository locale
+
+# gestione Repository locale
+git add nomefile -> traccia il file 
+git add. -> traccia tutti i file
+git commit -m 'messaggio' -> per salvare tutti i file nella repository locale
+
+#clone repository Remota
+git clone https://github.comHiwotBaregaBirganie//Hiwi-et.git
+
+# Init Repository locale
+git add nomefile ->traccia il file
+git add ->traccia titti i file
+
+#Salvataggio Repository Locale
+git commit -m 'messaggio' ->per salvare tutti i fille nella repository locale
+
+#collego una repository locale ad una repository remota
+git branch -M main
+git remote add origin https://github.com/HiwotBaregaBirganie/Hiwi-et.git
+git push -u origin main
