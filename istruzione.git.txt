@@ -34,3 +34,8 @@ git commit -m 'messaggio' ->per salvare tutti i fille nella repository locale
 git branch -M main
 git remote add origin https://github.com/HiwotBaregaBirganie/Hiwi-et.git
 git push -u origin main
+
+#Passaggi GIT
+git add .
+git commit -m 'messaggio'
+git push
